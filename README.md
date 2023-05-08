@@ -1,7 +1,5 @@
 # cfg4All UI
 
-![GitHub license](https://github.com/canferman/cfg4all-ui/tree/cfg-local-ui)
-
 This is a Flask web application that provides a chat UI for interacting with [llamacpp](https://github.com/ggerganov/llama.cpp), gpt-j, gpt-q as well as Hugging face based language models uch as [GPT4all](https://github.com/nomic-ai/gpt4all), vicuna etc...
 
 ![image](https://i.gyazo.com/ef94a5ac9169467a1aec228ef8c36c66.gif)
