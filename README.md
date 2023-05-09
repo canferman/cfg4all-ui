@@ -81,9 +81,6 @@ bash webui.sh
 ### Manual Simple install:
 
 1. Download this repository .zip:
-
-![image](https://user-images.githubusercontent.com/80409979/232210909-0ce3dc80-ed34-4b32-b828-e124e3df3ff1.png)
-
 2. Extract contents into a folder.
 3. Install/run application from terminal/console: 
 ```
