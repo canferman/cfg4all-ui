@@ -32,9 +32,6 @@ Make sure that your CPU supports `AVX2` instruction set. Without it, this applic
 ### Manual Simple install:
 
 1. Download this repository .zip:
-
-![image](https://user-images.githubusercontent.com/80409979/232210909-0ce3dc80-ed34-4b32-b828-e124e3df3ff1.png)
-
 2. Extract contents into a folder.
 3. Install/run application by double clicking on `webui.bat` file from Windows Explorer as normal user.
 
@@ -44,7 +41,7 @@ Make sure that your CPU supports `AVX2` instruction set. Without it, this applic
 2. Open Terminal/PowerShell and navigate to a folder you want to clone this repository.
 
 ```bash
-git clone https://github.com/nomic-ai/gpt4all-ui.git
+git clone https://github.com/canferman/cfg4all-ui.git
 ```
 
 4. Install/run application by double clicking on `webui.bat` file from Windows explorer as normal user.
@@ -69,11 +66,11 @@ sudo pacman -S curl
 ```
 2. Open terminal/console copy and paste this command and press enter: 
 ```
-mkdir -p ~/gpt4all-ui && curl -L https://raw.githubusercontent.com/nomic-ai/gpt4all-ui/main/webui.sh -o ~/gpt4all-ui/webui.sh && chmod +x ~/gpt4all-ui/webui.sh && cd ~/gpt4all-ui && ./webui.sh
+mkdir -p ~/cfg4all-ui && curl -L https://raw.githubusercontent.com/canferman/cfg4all-ui/cfg-local-ui/webui.sh -o ~/cfg4all-ui/webui.sh && chmod +x ~/cfg4all-ui/webui.sh && cd ~/cfg4all-ui && ./webui.sh
 ```
 > **Note**
 >
-> This command creates new directory `/gpt4all-ui/` in your /home/ direcory, downloads a file [webui.sh](https://raw.githubusercontent.com/nomic-ai/gpt4all-ui/main/webui.sh), makes file executable and executes webui.sh that downloads and installs everything that is needed.
+> This command creates new directory `/cfg4all-ui/` in your /home/ direcory, downloads a file [webui.sh](https://raw.githubusercontent.com/canferman/cfg4all-ui/cfg-local-ui/webui.sh), makes file executable and executes webui.sh that downloads and installs everything that is needed.
 
 3. Follow instructions on screen until it launches webui.
 4. To relaunch application: 
@@ -112,10 +109,10 @@ sudo pacman -S curl git python3
 2. Clone repository:
 
 ```bash
-git clone https://github.com/nomic-ai/gpt4all-ui.git
+git clone https://github.com/canferman/cfg4all-ui.git
 ```
 ```bash
-cd gpt4all-ui
+cd cfg4all-ui
 ```
 
 3. Install/run application:
@@ -141,10 +138,10 @@ brew install git python3
 3. Clone repository:
 
 ```bash
-git clone https://github.com/nomic-ai/gpt4all-ui.git
+git clone https://github.com/canferman/cfg4all-ui.git
 ```
 ```bash
-cd gpt4all-ui
+cd cfg4all-ui
 ```
 
 4. Install/run application:
@@ -348,4 +345,4 @@ We are excited about these future plans for the project and look forward to impl
 
 # License
 
-This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/nomic-ai/GPT4All-ui/blob/main/LICENSE) file for details.
+This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/canferman/cfg4all-ui/blob/main/LICENSE) file for details.
